@@ -9,8 +9,8 @@ router.post("/", (req, res) => {
     return res.status(400).json({ error: "Invalid input, data shpuld be a string string" });
   }
 
-  const sorted = data.split("").sort().join("");
-  return res.status(200).json({ result: sorted });
+  const sortedArray = data.split("").sort();
+  return res.status(200).json({ word: sortedArray });
 });
 
 module.exports = router;
