@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-app.get("/", (req, res) => res.send("Express on Vercel"));
+app.get("/", (req, res) => res.send("Welcome"));
 app.use("/webhook", webhookRoute);
 
 app.listen(3000, () => console.log("Server is running on port 3000"));
