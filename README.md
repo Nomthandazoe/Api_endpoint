@@ -2,7 +2,7 @@
 - This a server-side API endpoint that receives a webhook containing a single string of data in JSON format.
 - It then converts the string into an array of characters, order the array alphabetically, and return the array as a word.
 - It is a POST endpoint.
-- It is built with Built with Express.js.
+- It is built with Express.js.
 
 ## Requirements
 - Node.js
